@@ -1,0 +1,27 @@
+body{
+  font-family: 'Open Sans', sans-serif;
+}
+.flex{
+display: flex;
+}
+.header-top {
+}
+.header-top h1{
+  font-size: 20px;
+  background-color: #354147;
+  color: white;
+  text-align: center;
+  padding: 8px 0;
+  font-weight: normal;
+}
+.mainmenu ul{
+float: left;
+
+}
+.mainmenu ul li{
+  list-style: none;
+  display: inline-block;
+}
+.mainmenu ul li a{
+  
+}
