@@ -212,17 +212,66 @@ font-weight: bold;
   font-weight: 100;
 }
 
+.covid{
+  
+}
+.covid h2 {
+  justify-content: center;
+  text-align: center;
+  padding-top: 92px;
+  margin: auto;
+  font-size: 36px;
+  text-align: left;
+  color: #FFA300;
+  width: 1006px;
+  text-align: center;
+}
 
+.covid img {
+  display: flex;
+  justify-content: center;
+  margin: 90px auto;
+  box-shadow: 12px 14px 7px -3px #ddd;
+}
+.protect-checklist {
+  width: 54%;
+  padding-left: 10%;
+  box-sizing: border-box;
+}
 
+.doc-lee-img img {
+  width: 62%;
+  margin-top: 277px;
+}
+.protect-checklist {
+    width: 54%;
+    padding-left: 10%;
+    box-sizing: border-box;
+}
 
+.protect-checklist h3 {
+  font-size: 21px;
+  width: 673px;
+  padding-left: 40px;
+  color: #8a7d7d;
+}
 
-
-
-
-
-
-
-
+.protect-checklist ul{
+  list-style: none;
+}
+.protect-checklist ul li::before {
+  content: '\f058';
+  font-family: "Font Awesome 5 Free";
+  color: #FAAC17;
+  margin-right: 10px;
+  font-size: 25px;
+  line-height: 35px;
+}
+.protect-checklist ul li {
+  color: #8a7d7d;
+  font-size: 16px;
+  line-height: 30px;
+}
 
 
 
