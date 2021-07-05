@@ -14,14 +14,84 @@ display: flex;
   padding: 8px 0;
   font-weight: normal;
 }
+.mainmenu{
+  height: 120px;
+  width: 100%;
+  text-align: center;
+  padding-left: 430px;
+}
 .mainmenu ul{
-float: left;
 
+}
+.mainmenu img {
+  height: 83px;
+  margin-top: 13px;
+  padding-left: 30px;
 }
 .mainmenu ul li{
   list-style: none;
   display: inline-block;
+  float: left;
+  margin-top: 20px;
 }
 .mainmenu ul li a{
+  color:#354147 ;
+  padding: 20px 20px;
+  text-decoration: none;
+
+}
+.mainmenu ul li a:hover{
+  border-bottom: 3px solid #F6861F;
+  color: #F16423;
+}
+.slider{
+  height: 670px;
+  color: white;
+  background-position: center;
+  background-repeat: no-repeat;
+  background:linear-gradient(0deg, rgba(3, 3, 3, 0.568), rgba(0, 0, 0, 0.425)), url(images/dr-paul-lee-home-slide.jpg) center;
+  padding-left: 370px;
   
+  
+}
+.slider h2{
+  font-family: 'Roboto', sans-serif;
+  font-size: 25px;
+  font-weight: normal;
+  padding-left: 20px;
+}
+.slider-content{
+  padding-top: 200px;
+  width: 830px;
+  text-align: center;
+}
+.slider-content h1 {
+  font-size: 70px;
+  font-weight: lighter;
+  line-height: 0px;
+  color: #FFA300;
+}
+.dr-paul{
+  color: #FFA300;
+}
+.slider-content p{
+font-size: 20px;
+}
+.dr-paul{
+font-weight: bold;
+}
+.slider-content a{
+  color: white;
+  background-color: rgba(0, 0, 0, 0.349);
+  text-decoration: none;
+  border:2px solid #fff;
+  padding: 15px 40px;
+  margin-top: 20px;
+  display: inline-block;
+  border-radius: 0px 30px 0px 30px;
+}
+.slider-content a:hover{
+  color: #FFA300;
+  border:2px solid #FFA300;
+  border-radius: 30px 0px 30px 0px;
 }
