@@ -45,6 +45,7 @@ display: flex;
 .mainmenu ul li a:hover{
   border-bottom: 3px solid #F6861F;
   color: #F16423;
+  font-weight: bold;
 }
 .slider{
   height: 670px;
