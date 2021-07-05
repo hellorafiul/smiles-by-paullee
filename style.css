@@ -1,5 +1,7 @@
 body{
   font-family: 'Open Sans', sans-serif;
+  margin: 0 auto;
+  overflow-x: hidden;
 }
 .flex{
 display: flex;
@@ -51,6 +53,7 @@ display: flex;
   background-repeat: no-repeat;
   background:linear-gradient(0deg, rgba(3, 3, 3, 0.568), rgba(0, 0, 0, 0.425)), url(images/dr-paul-lee-home-slide.jpg) center;
   padding-left: 370px;
+  margin: 0 1%;
   
   
 }
@@ -94,4 +97,76 @@ font-weight: bold;
   color: #FFA300;
   border:2px solid #FFA300;
   border-radius: 30px 0px 30px 0px;
+}
+.appointment-header{
+  text-align: center;
+  justify-content: center;
+  margin-bottom: 90px;
+}
+.patient {
+  margin-top: 60px;
+  padding: 0 70px;
+  text-align: right;
+}
+.existing-p{
+  text-align: left;
+}
+.patient h3{
+  font-size: 25px;
+  line-height: 0;
+}
+.request-appointment-button a{
+  color: #fff;
+  background-color: #FAAC17;
+  text-decoration: none;
+  padding: 15px 40px;
+  margin-top: 80px;
+  display: inline-block;
+  border-radius: 0px 30px 0px 30px;
+  font-weight: bold;
+}
+.request-appointment-button a:hover{
+  background-color: #F6861F;
+}
+
+.appointment-content{
+  justify-content: center;
+  text-align: center;
+  padding: 0 20%;
+}
+.appointment{
+  margin-bottom: 200px;
+}
+.appointment-content h2 {
+  font-size: 35px;
+  font-weight: 100;
+}
+.appointment-content img {
+  margin-right: 5%;
+  width: 390px;
+}
+.appointment-content img:last-child{
+  margin-right: 0;
+}
+.after{
+  justify-content: center;
+}
+.appointment-button a{
+  color: #FAAC17;
+  border:2px solid #FAAC17;
+  text-decoration: none;
+  padding: 15px 40px;
+  margin-top: 80px;
+  display: inline-block;
+  border-radius: 0px 30px 0px 30px;
+  font-weight: bold;
+}
+.appointment-button a:hover{
+  background-color: #FAAC17;
+  color: white;
+}
+.appointment-button{
+  text-align: center;
+  justify-content: center;
+  width: 100%;
 }
