@@ -20,7 +20,7 @@
     <h1>Learn How Our Office is Protecting Your Health & Safety</h1>
   </top>
   <header class="header">
-    <div class="mainmenu flex">
+    <div class="mainmenu flex" id="navbar">
       <ul>
         <li><a href="#">Dr. Paul Lee</a></li>
         <li><a href="#">Reviews</a></li>
@@ -73,7 +73,28 @@
       <a href="#">VIEW SMILE GALLERY</a>
     </div>
 
+    <section class="cosmetic-dentistry">
+      <h2>Get the smile of your dreams with cosmetic dentistry</h2>
+      <p>Any dentist can change your smile, but Dr. Paul Lee brings the health, function, and aesthetics of your smile
+        into perfect harmony for not only esthetics but whole-body health that’ll last.</p>
+      <a href="#">LEARN MORE</a>
+    </section>
+
   </section>
+  <script>
+    window.onscroll = function () { myFunction() };
+
+    var navbar = document.getElementById("navbar");
+    var sticky = navbar.offsetTop;
+
+    function myFunction() {
+      if (window.pageYOffset >= sticky) {
+        navbar.classList.add("sticky")
+      } else {
+        navbar.classList.remove("sticky");
+      }
+    }
+  </script>
 </body>
 
 </html>
